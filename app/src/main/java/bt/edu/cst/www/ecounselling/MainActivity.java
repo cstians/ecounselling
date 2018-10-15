@@ -86,17 +86,17 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_helpline) {
             startActivity(new Intent(getApplication(), Helpline.class));
         } else if (id == R.id.nav_sett) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Setting.class));
         } else if (id == R.id.nav_feed) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Feedback.class));
         } else if (id == R.id.nav_help) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Help.class));
         } else if (id == R.id.nav_share) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Share.class));
         } else if (id == R.id.nav_rate) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Rate.class));
         } else if (id == R.id.nav_about) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), About.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
