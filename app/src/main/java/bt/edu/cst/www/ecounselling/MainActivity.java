@@ -1,6 +1,7 @@
 package bt.edu.cst.www.ecounselling;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -98,7 +99,7 @@ public class MainActivity extends AppCompatActivity
             share.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.facebook.ocra");
             startActivity(Intent.createChooser(share,"Share Using"));
         } else if (id == R.id.nav_rate) {
-            startActivity(new Intent (Intent.ACTION_VIEW, Url.parse("https://play.google.com/store/apps/details?id=com.facebook.ocra")));
+            startActivity(new Intent (Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.facebook.ocra")));
             Toast.makeText(getApplication(),"Please Rate this app on Playstore", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_about) {
             startActivity(new Intent(getApplication(), About.class));
