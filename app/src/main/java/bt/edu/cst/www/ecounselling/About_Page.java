@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class About_Page extends AppCompatActivity {
 
-    public TextView textView2, getTextView3, getTextView4, getTextView5
+    public TextView textView2, getTextView3, getTextView4, getTextView5;
     String name="Name: Khushwanth Chhetri\nEmail_id:khushwanth.chhetri@gmail.com\nPhone No.:17804011";
     String sname="Name: Sonam Dema\nEmail_id:somdem96@gmail.com\nPhone No.:17890748";
     String dname="Name: Doten Dorji\nEmail_id:dotenkhengkhomshar@gmail.com\nPhone No.:17955368";

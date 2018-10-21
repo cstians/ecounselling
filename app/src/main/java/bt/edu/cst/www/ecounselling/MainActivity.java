@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -92,9 +93,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_help) {
             startActivity(new Intent(getApplication(), Help.class));
         } else if (id == R.id.nav_share) {
-            startActivity(new Intent(getApplication(), Share.class));
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/*");
+            share.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.facebook.ocra");
+            startActivity(Intent.createChooser(share,"Share Using"));
         } else if (id == R.id.nav_rate) {
-            startActivity(new Intent(getApplication(), Rate.class));
+            startActivity(new Intent (Intent.ACTION_VIEW, Url.parse("https://play.google.com/store/apps/details?id=com.facebook.ocra")));
+            Toast.makeText(getApplication(),"Please Rate this app on Playstore", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_about) {
             startActivity(new Intent(getApplication(), About.class));
         }
