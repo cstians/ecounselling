@@ -2,7 +2,44 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bt.edu.cst.www.ecounselling">
 
+    <!-- Defined Permissions -->
     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Screen compatibility Code -->
+    <compatible-screens>
+        <!-- all small size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <!-- all normal size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+    </compatible-screens>
+
+    <!-- Screen Support Code -->
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -10,6 +47,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:fullBackupContent="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
@@ -17,11 +55,18 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DepressionTest" />
+        <activity android:name=".DepressionTest"
+            android:label="@string/test_dep"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Helpline" />
         <activity android:name=".Setting" />
         <activity android:name=".Feedback" />
@@ -29,7 +74,6 @@
         <activity android:name=".Share" />
         <activity android:name=".Rate" />
         <activity android:name=".About" />
-        <activity android:name=".About_Page"></activity>
     </application>
 
 </manifest>

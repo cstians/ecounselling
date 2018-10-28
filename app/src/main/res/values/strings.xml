@@ -21,4 +21,7 @@
     <string name="rate">Rate</string>
     <string name="about">About</string>
 
+    <!-- About Page String Resources -->
+    <string name="app_logo">eCounselling app logo</string>
+
 </resources>
