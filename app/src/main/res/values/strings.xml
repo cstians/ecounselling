@@ -24,4 +24,7 @@
     <string name="textview">TextView</string>
     
 
+    <!-- About Page String Resources -->
+    <string name="app_logo">eCounselling app logo</string>
+
 </resources>

@@ -1,6 +1,7 @@
 package bt.edu.cst.www.ecounselling;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -86,17 +88,21 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_helpline) {
             startActivity(new Intent(getApplication(), Helpline.class));
         } else if (id == R.id.nav_sett) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Setting.class));
         } else if (id == R.id.nav_feed) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Feedback.class));
         } else if (id == R.id.nav_help) {
             startActivity(new Intent(getApplication(), Help_Activity.class));
         } else if (id == R.id.nav_share) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/*");
+            share.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.facebook.ocra");
+            startActivity(Intent.createChooser(share,"Share Using"));
         } else if (id == R.id.nav_rate) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent (Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.facebook.ocra")));
+            Toast.makeText(getApplication(),"Please Rate this app on Playstore", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_about) {
-            startActivity(new Intent(getApplication(), About_Activity.class));
+            startActivity(new Intent(getApplication(), About.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
