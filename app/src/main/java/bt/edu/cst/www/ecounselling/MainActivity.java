@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_feed) {
             startActivity(new Intent(getApplication(), Feedback.class));
         } else if (id == R.id.nav_help) {
-            startActivity(new Intent(getApplication(), Help.class));
+            startActivity(new Intent(getApplication(), Help_Activity.class));
         } else if (id == R.id.nav_share) {
             Intent share=new Intent(Intent.ACTION_SEND);
             share.setType("text/*");
