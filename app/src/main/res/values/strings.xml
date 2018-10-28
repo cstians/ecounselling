@@ -20,5 +20,8 @@
     <string name="share">ShareApp</string>
     <string name="rate">Rate</string>
     <string name="about">About</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    
 
 </resources>

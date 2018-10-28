@@ -20,7 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".DepressionTest" />
-        <activity android:name=".Helpline"></activity>
+        <activity android:name=".Helpline" />
+        <activity android:name=".About_Activity" />
+        <activity android:name=".Help_Activity" />
+        <activity android:name=".User_Manual" />
+        <activity android:name=".TermsAndConditions"></activity>
     </application>
 
 </manifest>

@@ -90,13 +90,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_feed) {
             startActivity(new Intent(getApplication(), DepressionTest.class));
         } else if (id == R.id.nav_help) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), Help_Activity.class));
         } else if (id == R.id.nav_share) {
             startActivity(new Intent(getApplication(), DepressionTest.class));
         } else if (id == R.id.nav_rate) {
             startActivity(new Intent(getApplication(), DepressionTest.class));
         } else if (id == R.id.nav_about) {
-            startActivity(new Intent(getApplication(), DepressionTest.class));
+            startActivity(new Intent(getApplication(), About_Activity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
