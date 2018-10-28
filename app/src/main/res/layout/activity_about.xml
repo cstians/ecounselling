@@ -48,8 +48,28 @@
                 android:id="@+id/version_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="2dp"
                 android:text=""
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/contact_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/contact_details"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="@string/email_address"
+                android:autoLink="email"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="20sp"
                 android:gravity="center"/>
 

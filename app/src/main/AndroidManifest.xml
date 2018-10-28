@@ -99,22 +99,8 @@
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
         </activity>
-        <activity android:name=".Share"
-            android:label="@string/share"
-            android:noHistory="true"
-            android:parentActivityName=".MainActivity">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-        </activity>
-        <activity android:name=".Rate"
-            android:label="@string/rate"
-            android:noHistory="true"
-            android:parentActivityName=".MainActivity">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-        </activity>
+        <activity android:name=".Share"/>
+        <activity android:name=".Rate"/>
         <activity android:name=".About"
             android:label="@string/about"
             android:noHistory="true"

@@ -23,5 +23,7 @@
 
     <!-- About Page String Resources -->
     <string name="app_logo">eCounselling app logo</string>
+    <string name="contact_details">For queries, find us at</string>
+    <string name="email_address">ecounsellingbhutan2018@gmail.com</string>
 
 </resources>
