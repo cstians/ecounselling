@@ -30,6 +30,7 @@
 
             <ImageView
                 android:id="@+id/about_app_logo"
+                android:contentDescription="@string/app_logo"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
@@ -71,6 +72,43 @@
                 android:autoLink="email"
                 android:textColor="@android:color/holo_blue_dark"
                 android:textSize="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/dev_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/devTitle"
+                android:autoLink="email"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="23sp"
+                android:gravity="start"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:contentDescription="@string/guide_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/guide" />
+
+            <TextView
+                android:id="@+id/guide_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="@string/guide_details_1"
+                android:textSize="15sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/guide_info_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="@string/guide_details_2"
+                android:textSize="15sp"
                 android:gravity="center"/>
 
 
