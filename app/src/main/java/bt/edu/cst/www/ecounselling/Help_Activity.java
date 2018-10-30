@@ -12,6 +12,7 @@ import java.security.AccessController;
 
 public class Help_Activity extends AppCompatActivity {
     private TextView textView1,textView2;
+    public ImageView imageview1,imageview2;
 
     String userman="User Manual";
     String terms="Terms & Conditions";
@@ -28,24 +29,29 @@ public class Help_Activity extends AppCompatActivity {
         textView1.setGravity(Gravity.CENTER);
         textView2.setText(terms);
         textView2.setGravity(Gravity.CENTER);
+        Help_Method();
 
 
-        ImageView imageview1 = (ImageView)findViewById(R.id.imageView1);
+
+    }
+    public void Help_Method(){
+        imageview1 = (ImageView)findViewById(R.id.imageView1);
         imageview1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent act1 = new Intent(v.getContext(), User_Manual.class);
-                startActivity(act1);
+                 startActivity(new Intent(v.getContext(), User_Manual.class));
+
             }
         });
 
-        ImageView imageview2=(ImageView)findViewById(R.id.imageView2);
+        imageview2=(ImageView)findViewById(R.id.imageView2);
         imageview2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-                Intent act2=new Intent(v1.getContext(), TermsAndConditions.class);
-                startActivity(act2);
+                startActivity(new Intent(v1.getContext(), TermsAndConditions.class));
+
             }
         });
+
     }
 }
