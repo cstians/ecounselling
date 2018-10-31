@@ -37,7 +37,7 @@
                 android:title="@string/share" />
             <item
                 android:id="@+id/nav_rate"
-                android:icon="@drawable/ic_star"
+                android:icon="@android:drawable/star_off"
                 android:title="@string/rate" />
             <item
                 android:id="@+id/nav_about"
