@@ -98,11 +98,33 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".Help_Activity"
+            android:label="@string/help"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Share"
+            android:label="@string/share"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Rate"
+            android:label="@string/rate"
+=======
         <activity android:name=".Share" />
         <activity android:name=".Rate" />
         <activity
             android:name=".About"
             android:label="@string/about"
+>>>>>>> c7ce46a7dca4af5b2629778a80ca2a34a2149ebf
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
             <intent-filter>
@@ -117,6 +139,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".User_Manual"
+            android:label=""
+            android:noHistory="true"
+            android:parentActivityName=".Help_Activity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".TermsAndConditions"
+        android:label=""
+        android:noHistory="true"
+        android:parentActivityName=".Help_Activity">
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
     </application>
 
 </manifest>
