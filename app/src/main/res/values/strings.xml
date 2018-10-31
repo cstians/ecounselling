@@ -29,8 +29,17 @@
     <string name="contact_details">For queries, find us at</string>
     <string name="email_address">ecounsellingbhutan2018@gmail.com</string>
     <string name="devTitle">Developers</string>
-    <string name="guide_img">GuideImage</string>
+    <string name="guide_img">Guide Image</string>
+    <string name="dev_img">Developer Image</string>
     <string name="guide_details_1">Kezang Dema</string>
     <string name="guide_details_2">Project Guide</string>
+    <string name="dev_name_1">Doten Dorji</string>
+    <string name="dev_name_2">Galley Namgyel</string>
+    <string name="dev_name_3">Khusant Chhetri</string>
+    <string name="dev_name_4">Sonam Dema</string>
+    <string name="dev_email_1">dotendorji@gmail.com</string>
+    <string name="dev_email_2">galley@gmail.com</string>
+    <string name="dev_email_3">khushwanth.chhetri@gmail.com</string>
+    <string name="dev_email_4">sonamdema@gmail.com</string>
 
 </resources>
