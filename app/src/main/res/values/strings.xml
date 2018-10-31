@@ -42,7 +42,9 @@
         <item>@string/line1</item>
         <item>Second line</item>
     </string-array>
-    
+
+    <string name="hospital">112</string>
+    <string name="police">113</string>
 
     <!-- About Page String Resources -->
     <string name="app_logo">eCounselling app logo</string>
