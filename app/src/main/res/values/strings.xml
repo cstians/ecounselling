@@ -22,8 +22,8 @@
     <string name="about">About</string>
     <string name="todo">TODO</string>
     <string name="textview">TextView</string>
-
-<<<<<<< HEAD
+    <string name="user_manual">User Manual</string>
+    <string name="t_and_a">Terms &amp; Conditions</string>
     <string name="line1">All the users of eCounselling application are expected to comply with the following terms and conditions\n\n
     \u25CF\tAcceptance of Terms and Conditions of Use Agreement.\nThis agreement is an electronic contract that establishes the legally
     binding terms you must accept to use the service.\nThis agreement includes the:\ni)\tThe Privacy Policy and\nii)\tour Safety Guidelines.\n
@@ -43,8 +43,6 @@
         <item>Second line</item>
     </string-array>
     
-=======
->>>>>>> c7ce46a7dca4af5b2629778a80ca2a34a2149ebf
 
     <!-- About Page String Resources -->
     <string name="app_logo">eCounselling app logo</string>

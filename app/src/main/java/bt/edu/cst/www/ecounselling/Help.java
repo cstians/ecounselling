@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.security.AccessController;
-
-public class Help_Activity extends AppCompatActivity {
+public class Help extends AppCompatActivity {
     private TextView textView1,textView2;
     public ImageView imageview1,imageview2;
 
@@ -20,7 +18,7 @@ public class Help_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_help_);
+        setContentView(R.layout.activity_help);
 
         textView1 = (TextView) findViewById(R.id.textView1);
         textView2 = (TextView) findViewById(R.id.textView2);
@@ -39,7 +37,7 @@ public class Help_Activity extends AppCompatActivity {
         imageview1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 startActivity(new Intent(v.getContext(), User_Manual.class));
+                 startActivity(new Intent(v.getContext(), UserManual.class));
 
             }
         });

@@ -98,8 +98,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".Help_Activity"
+        <activity android:name=".Help"
             android:label="@string/help"
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
@@ -118,40 +117,25 @@
         </activity>
         <activity android:name=".Rate"
             android:label="@string/rate"
-=======
-        <activity android:name=".Share" />
-        <activity android:name=".Rate" />
-        <activity
-            android:name=".About"
-            android:label="@string/about"
->>>>>>> c7ce46a7dca4af5b2629778a80ca2a34a2149ebf
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Help"
-            android:label="@string/help"
+        <activity android:name=".UserManual"
+            android:label="@string/user_manual"
             android:noHistory="true"
-            android:parentActivityName=".MainActivity">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".User_Manual"
-            android:label=""
-            android:noHistory="true"
-            android:parentActivityName=".Help_Activity">
+            android:parentActivityName=".Help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
     <activity android:name=".TermsAndConditions"
-        android:label=""
+        android:label="@string/t_and_a"
         android:noHistory="true"
-        android:parentActivityName=".Help_Activity">
+        android:parentActivityName=".Help">
         <intent-filter>
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
