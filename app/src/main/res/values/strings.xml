@@ -63,7 +63,7 @@
     <string name="dev_email_4">sonamdema@gmail.com</string>
 
     <!--Feedback-->
-    <string name="feedbackInfo">Write your feedback</string>
+    <string name="feedbackInfo">Please provide your feedback</string>
     <string name="enter_feedback">Enter your feedback here</string>
     <string name="feedbackAno">Your feedback is anonymous</string>
 
