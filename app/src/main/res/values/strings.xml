@@ -42,7 +42,7 @@
         <item>@string/line1</item>
         <item>Second line</item>
     </string-array>
-    
+
 
     <!-- About Page String Resources -->
     <string name="app_logo">eCounselling app logo</string>

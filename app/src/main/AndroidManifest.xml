@@ -98,7 +98,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Help"
+        <activity
+            android:name=".Help"
             android:label="@string/help"
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
@@ -106,16 +107,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Share"
+        <activity
+            android:name=".Share"
             android:label="@string/share"
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
-        <activity android:name=".Rate"
+        <activity
+            android:name=".Rate"
             android:label="@string/rate"
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
@@ -123,7 +125,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".UserManual"
+        <activity
+            android:name=".UserManual"
             android:label="@string/user_manual"
             android:noHistory="true"
             android:parentActivityName=".Help">
@@ -131,24 +134,25 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-    <activity android:name=".TermsAndConditions"
-        android:label="@string/t_and_a"
-        android:noHistory="true"
-        android:parentActivityName=".Help">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
-
-        <activity android:name=".About"
-        android:label="@string/about"
-        android:noHistory="true"
-        android:parentActivityName=".MainActivity">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
+        <activity
+            android:name=".TermsAndConditions"
+            android:label="@string/t_and_a"
+            android:noHistory="true"
+            android:parentActivityName=".Help">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DepressionAssesment"></activity>
     </application>
 
 </manifest>
