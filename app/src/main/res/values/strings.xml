@@ -24,4 +24,9 @@
     <!-- About Page String Resources -->
     <string name="app_logo">eCounselling app logo</string>
 
+    <!--Feedback-->
+    <string name="feedbackInfo">Write your feedback</string>
+    <string name="enter_feedback">Enter your feedback here</string>
+    <string name="feedbackAno">Your feedback is anonymous</string>
+
 </resources>
