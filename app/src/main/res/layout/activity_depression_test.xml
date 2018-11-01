@@ -56,10 +56,9 @@
 
             <Button
                 android:layout_marginTop="16dp"
-                android:id="@+id/buttonBeginTest"
-                android:layout_width="130dp"
-                android:layout_height="60dp"
-                android:textSize="24sp"
+                android:id="@+id/button"
+                android:layout_width="100dp"
+                android:layout_height="97dp"
                 android:text="@string/test_button"
                 android:background="@color/buttonColor"
                 android:textColor="@color/buttonTextColor"/>
