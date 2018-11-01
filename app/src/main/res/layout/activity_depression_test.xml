@@ -24,17 +24,38 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
             android:weightSum="1">
 
-        <ImageView
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/mhGap_logo" />
 
-            android:layout_width="100dp"
-            android:layout_height="90dp" />
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/dep_test"
+                android:textAlignment="center"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/dep_testInfo"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_button"/>
 
         </LinearLayout>
     </ScrollView>
