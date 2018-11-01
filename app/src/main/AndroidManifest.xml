@@ -152,7 +152,24 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DepressionAssesment"></activity>
+        <activity android:name=".DepressionAssesment" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/register"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterTwo"
+            android:label="@string/register"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

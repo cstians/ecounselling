@@ -77,4 +77,27 @@
     </string>
     <string name="test_button">Test yourself</string>
 
+    <!--Registration-->
+    <string name="register">Register</string>
+    <string name="name">Enter your name</string>
+    <string name="userName">Enter your username</string>
+    <string name="passwd">Enter your password</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="languages">Languages</string>
+    <string name="english">English</string>
+    <string name="dzongkha">Dzongkha</string>
+    <string name="lhotsham">Lhotshamkha</string>
+    <string name="sharchop">Sharchop</string>
+    <string name="choose">Register as</string>
+    <string name="counsellor">Counsellor</string>
+    <string name="counselee">Counselee</string>
+    <string name="next">Next</string>
+
+    <!--Registration two-->
+    <string name="contact">Contact Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="finishButton">Finish</string>
+
 </resources>

@@ -57,7 +57,9 @@
                 android:id="@+id/button"
                 android:layout_width="100dp"
                 android:layout_height="97dp"
-                android:text="@string/test_button"/>
+                android:text="@string/test_button"
+                android:background="@color/buttonColor"
+                android:textColor="@color/buttonTextColor"/>
 
         </LinearLayout>
     </ScrollView>
