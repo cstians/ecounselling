@@ -4,4 +4,9 @@
     <color name="colorPrimary">@android:color/holo_blue_dark</color>
     <color name="colorPrimaryDark">@android:color/holo_blue_dark</color>
     <color name="colorAccent">@android:color/holo_blue_dark</color>
+    <color name="dep_color">#881C6B</color>
+    <color name="mhgapColor">@android:color/holo_blue_dark</color>
+    <color name="mhgapContentColor">#040406</color>
+    <color name="buttonColor">#881C64</color>
+    <color name="buttonTextColor">#FFFFFF</color>
 </resources>
