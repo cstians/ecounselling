@@ -5,4 +5,6 @@
     <color name="colorPrimaryDark">@android:color/holo_blue_dark</color>
     <color name="colorAccent">@android:color/holo_blue_dark</color>
     <color name="dep_color">#881C6B</color>
+    <color name="mhgapColor">@android:color/holo_blue_dark</color>
+    <color name="mhgapContentColor">#040406</color>
 </resources>
