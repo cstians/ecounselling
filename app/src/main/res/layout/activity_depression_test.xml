@@ -33,8 +33,9 @@
 
             <ImageView
                 android:layout_width="100dp"
+                android:contentDescription="@string/mhgap_logo"
                 android:layout_height="90dp"
-                app:srcCompat="@drawable/mhGap_logo" />
+                app:srcCompat="@drawable/mhgap_logo" />
 
             <TextView
                 android:layout_width="310dp"
