@@ -69,4 +69,12 @@
     <string name="enter_feedback">Enter your feedback here</string>
     <string name="feedbackAno">Your feedback is anonymous</string>
 
+    <!--DepressionTest-->
+    <string name="dep_test">MhGAP DepressionTest</string>
+    <string name="dep_testInfo">Mental Health Gap Action Programme (mhGAP) aims at scaling up services for mental, neurological and substance use disorders for countries especially with low- and middle-income.
+        The programme asserts that with proper care, psychosocial assistance and medication, tens of millions could be treated for depression, schizophrenia, and epilepsy, prevented from suicide and begin to lead normal lives– even where resources are scarce.
+        One of the main pyschological problem is depression. And in this section, you can test yourself.
+    </string>
+    <string name="test_button">Test yourself</string>
+
 </resources>
