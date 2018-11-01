@@ -3,6 +3,8 @@ package bt.edu.cst.www.ecounselling;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity
     NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 }
+
 
     @Override
     public void onBackPressed() {
