@@ -34,7 +34,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="90dp"
-                app:srcCompat="@drawable/mhGap_logo" />
+                app:srcCompat="@drawable/mhgap_logo" />
 
             <TextView
                 android:layout_width="310dp"
@@ -42,19 +42,21 @@
                 android:layout_marginTop="30dp"
                 android:text="@string/dep_test"
                 android:textAlignment="center"
-                android:textSize="23sp" />
+                android:textSize="23sp"
+                android:textColorHint="@color/mhgapColor"/>
 
             <TextView
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="@string/dep_testInfo"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColorHint="@color/mhgapContentColor"/>
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="97dp"
                 android:text="@string/test_button"/>
 
         </LinearLayout>
