@@ -61,10 +61,7 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
@@ -75,7 +72,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
@@ -166,7 +163,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".DepressionAssesment" />
-
         <activity
             android:name=".Registration"
             android:label="@string/register"
@@ -176,7 +172,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterTwo"
+        <activity
+            android:name=".RegisterTwo"
             android:label="@string/register"
             android:noHistory="true"
             android:parentActivityName=".MainActivity">
@@ -184,6 +181,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-     </application>
+        <activity android:name=".Quiz"></activity>
+    </application>
 
 </manifest>

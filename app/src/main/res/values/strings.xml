@@ -127,4 +127,10 @@
     <string name="test_inst">
         \u25CF\tMultiple persistent physical symptoms with no clear cause\n\u25CF\tLow energy, fatigue, sleep problems\n\u25CF\tPersistent sadness or depressed mood, anxiety\n\u25CF\tLoss of interest in activities that are normally pleasurable
     </string>
+    <string name="dep_test_inst">Instruction: \nYou will be displayed a question along with the additional symptoms. You will have to Select the Yes or No option, and based on that, the next question, or the result will be displayed.</string>
+    <string name="start">Start</string>
+    <string name="question">Has the person had at least one of the following symptoms for the last 2 weeks?</string>
+    <string name="symptoms">- Persistent Depressed mood\n-Markedly diminished interest in or pleasure from activities</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

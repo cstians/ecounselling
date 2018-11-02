@@ -25,7 +25,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/fab_margin">
 
 
             <TextView
@@ -35,7 +36,9 @@
                 android:text="@string/test_inst_topic"
                 android:textColor="@android:color/white"
                 android:gravity="center"
-                android:layout_marginBottom="2dp"/>
+                android:textStyle="bold"
+                android:layout_marginBottom="2dp"
+                android:textSize="@dimen/text_size"/>
 
             <TextView
                 android:id="@+id/textView14"
@@ -45,7 +48,28 @@
                 android:textColor="@android:color/white"
                 android:gravity="left"
                 android:padding="10dp"
+                android:textSize="18sp"
                 android:background="@drawable/text_border"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small"
+                android:layout_height="wrap_content"
+                android:text="@string/dep_test_inst" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textSize="23sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@color/dep_color"/>
 
         </LinearLayout>
     </ScrollView>
