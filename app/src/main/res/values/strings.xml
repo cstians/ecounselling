@@ -129,8 +129,18 @@
     </string>
     <string name="dep_test_inst">Instruction: \nYou will be displayed a question along with the additional symptoms. You will have to Select the Yes or No option, and based on that, the next question, or the result will be displayed.</string>
     <string name="start">Start</string>
-    <string name="question">Has the person had at least one of the following symptoms for the last 2 weeks?</string>
-    <string name="symptoms">- Persistent Depressed mood\n-Markedly diminished interest in or pleasure from activities</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+
+    <!-- Quiz questions -->
+    <string name="question1">Has the person had at least one of the following symptoms for the last 2 weeks?</string>
+    <string name="symptoms1">- Persistent Depressed mood\n- Markedly diminished interest in or pleasure from activities</string>
+    <string name="question2">Has the person had several of the following additional symptoms for at least 2 weeks?</string>
+    <string name="symptoms2">- Disturbed sleep or sleeping too much\n- Significant change is appetite or weight\n- Beliefs of worthlessness or excessive guilt\n- Fatigue or loss of energy\n- Reduced concentration\n- Indecisiveness\n- Observable agitation or physical restlessness\n- Talking or moving more slowly than usual\n- Hopelessness\n- Suicidal thoughts or acts</string>
+    <string name="question3">Does the person have considerable difficulty with daily functioning in personal, family, social, educational, occupational or other areas?</string>
+    <string name="symptoms3">A person with depression may have psychotic symptoms such as delusions or hallucinations. If present, treatment for depression needs to be adapted. CONSULT A SPECIALIST.</string>
+    <string name="no_dep">Depression is Unlikely</string>
+    <string name="depression">Depression is very likely.</string>
+    <string name="exit">Exit</string>
+
 </resources>

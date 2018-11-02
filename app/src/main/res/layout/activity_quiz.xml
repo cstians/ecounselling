@@ -31,7 +31,7 @@
                 android:id="@+id/ques"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question"
+                android:text="@string/question1"
                 android:textColor="@color/dep_color"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold"/>
@@ -40,7 +40,7 @@
                 android:id="@+id/symp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/symptoms"
+                android:text="@string/symptoms1"
                 android:background="@drawable/text_border_dep"
                 android:textColor="@color/dep_color"
                 android:textSize="@dimen/text_size_small"
@@ -64,7 +64,8 @@
                     android:textStyle="bold"
                     android:textSize="@dimen/text_size"
                     android:background="@color/dep_color"
-                    android:layout_marginRight="@dimen/fab_margin"/>
+                    android:layout_marginRight="@dimen/fab_margin"
+                    android:onClick="yesClick"/>
 
                 <Button
                     android:id="@+id/nobut"
@@ -76,9 +77,24 @@
                     android:textStyle="bold"
                     android:textSize="@dimen/text_size"
                     android:background="@color/dep_color"
-                    android:textAllCaps="false"/>
+                    android:textAllCaps="false"
+                    android:onClick="noClick"/>
             </LinearLayout>
 
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/exitbut"
+                android:visibility="gone"
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/exit"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size"
+                android:background="@color/dep_color"
+                android:textAllCaps="false"
+                android:onClick="exitToMain"/>
 
         </LinearLayout>
     </ScrollView>
