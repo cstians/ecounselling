@@ -44,24 +44,28 @@
                 android:text="@string/dep_test"
                 android:textAlignment="center"
                 android:textSize="23sp"
-                android:textColor="@color/mhgapColor"/>
+                android:textColor="@color/mhgapColor"
+                />
 
             <TextView
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/dep_testInfo"
                 android:textSize="20sp"
                 android:textColorHint="@color/mhgapContentColor"/>
 
             <Button
-                android:layout_marginTop="16dp"
-                android:id="@+id/button"
-                android:layout_width="100dp"
-                android:layout_height="97dp"
+                android:id="@+id/buttonBeginTest"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
                 android:text="@string/test_button"
+                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
                 android:background="@color/buttonColor"
-                android:textColor="@color/buttonTextColor"/>
+                android:textColor="@color/buttonTextColor"
+                android:layout_marginBottom="@dimen/fab_margin"/>
+
 
         </LinearLayout>
     </ScrollView>

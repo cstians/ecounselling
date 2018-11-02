@@ -117,7 +117,6 @@
         <activity
             android:name=".Help"
             android:label="@string/help"
-            android:noHistory="true"
             android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -152,9 +151,7 @@
         </activity>
         <activity
             android:name=".TermsAndConditions"
-            android:label="@string/t_and_a"
-            android:noHistory="true"
-            android:parentActivityName=".Help">
+            android:label="@string/t_and_a">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

@@ -20,8 +20,8 @@ public class Help extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 
-        textView1 = (TextView) findViewById(R.id.textView1);
-        textView2 = (TextView) findViewById(R.id.textView2);
+        textView1 = findViewById(R.id.textView1);
+        textView2 =  findViewById(R.id.textView2);
 
         textView1.setText(userman);
         textView1.setGravity(Gravity.CENTER);
