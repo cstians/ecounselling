@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@android:color/holo_blue_dark">
+                android:background="@drawable/login_back">
 
                 <ImageView
                     android:id="@+id/imageView9"
@@ -59,9 +59,10 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="@string/loginheading"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="20sp"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
 
                 <!--Image and app name with tagline -->
 
@@ -130,6 +131,7 @@
                     android:layout_marginRight="50dp"
                     android:background="@android:color/holo_blue_dark"
                     android:text="CREATE AN ACCOUNT"
+                    android:onClick="registrationScreen"
                     android:textColor="@android:color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />

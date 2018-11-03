@@ -119,19 +119,16 @@
 
             <RadioButton
                 android:id="@+id/radioButton4"
-                android:layout_width="120dp"
-                android:layout_height="80dp"
-                android:text="@string/counselee"
-                android:textSize="25sp"
-                android:layout_gravity="center"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/buttonTextColor" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/counselee" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/next"
+                android:onClick="registrationTwo"
                 />
 
         </LinearLayout>
