@@ -142,5 +142,6 @@
     <string name="no_dep">Depression is Unlikely</string>
     <string name="depression">Depression is very likely.</string>
     <string name="exit">Exit</string>
+    <string name="search">Search</string>
 
 </resources>
